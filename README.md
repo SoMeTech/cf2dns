@@ -5,7 +5,7 @@
 ``The version '3.7' with architecture 'x64' was not found for Ubuntu 24.04.
 The list of all available versions can be found here: https://raw.githubusercontent.com/actions/python-versions/main/versions-manifest.jso``
 
-一直不知道什么原因，后查看run.yml
+一直不知道什么原因，后偶然查看run.yml
 
 发现：runs-on: ubuntu-latest
 
