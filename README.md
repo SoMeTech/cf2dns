@@ -1,3 +1,13 @@
+### 修改run.yml文件，解决ubuntu 24没有python 3.7的问题 --update 2024.10.14
+最近几天，Actions一直报错误：
+  ```The version '3.7' with architecture 'x64' was not found for Ubuntu 24.04.
+The list of all available versions can be found here: https://raw.githubusercontent.com/actions/python-versions/main/versions-manifest.jso```
+一直不知道什么原因，后查看run.yml
+发现：runs-on: ubuntu-latest
+估计是最新版本的ubuntu24.04已经升级了python版本，与此项目要求的python3.7不匹配，遂改成
+runs-on: ubuntu-22.04
+问题解决
+特记之
 ### 增加dddb/cf2dns docker镜像  --update 2024.6.4
 
 > 使用方法
