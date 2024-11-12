@@ -1,4 +1,5 @@
 ### 今天好像又出问题了，阿里云没有更新DNS解析
+查看Actions 日志，在run c2dns v4和V6阶段，都提示：GET CLOUDFLARE IP ERROR:
 ### 修改run.yml文件，解决ubuntu 24没有python 3.7的问题 --update 2024.10.14
 
 最近几天，Actions一直报错误：
