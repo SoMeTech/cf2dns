@@ -1,5 +1,7 @@
 ### 今天好像又出问题了，阿里云没有更新DNS解析
 查看Actions 日志，在run c2dns v4和V6阶段，都提示：GET CLOUDFLARE IP ERROR:
+后经与[host](https://hostmonit.com/)联系，发现是key的额度用完了，
+人家邮件通知了的。怪自己眼瞎没看到邮件通知
 ### 修改run.yml文件，解决ubuntu 24没有python 3.7的问题 --update 2024.10.14
 
 最近几天，Actions一直报错误：
